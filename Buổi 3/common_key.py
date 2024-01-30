@@ -13,6 +13,5 @@ def merge_dicts(dict1:dict,dict2:dict):
         if k2 not in res_dict:
             res_dict[k2] = dict2[k2]
 
-    print(dict1)
-    print(res_dict)
-merge_dicts(dict1,dict2)
+    return res_dict
+print(merge_dicts(dict1,dict2))
