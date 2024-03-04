@@ -27,7 +27,7 @@ myTuple1 = (1,2,6,9,8,7)
 print(myTuple+myTuple1)
 print(myTuple*4)
 print(myTuple.count(2))
-print(tuple(1,2,3,4))
+print(tuple((1,2,3,4)))
 
 list1 = [0,1,2,3,4,5,6,7]
 list1[1]=3
